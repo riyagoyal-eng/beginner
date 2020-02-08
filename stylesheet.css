@@ -1,0 +1,101 @@
+*{
+	margin:2px;
+}
+body{
+	font-size:15px;
+	font-style:Arial;
+	background-image: url('program.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+
+header{
+	background-color:#82e8bc;
+}
+.container{
+	overflow:auto;
+}
+.container h1{
+	display:inline;
+	float:left;
+}
+li{
+	text-decoration:none;
+	display:inline;
+	float:right;
+	margin-top:40px;
+	padding-right:20px;
+}
+span{
+	color:blue;
+	font-weight:bold;
+	font-size:75px;
+}
+.content{
+	text-align: center;
+	
+}
+.content h2{
+	font-family:'Domine', serif;
+	font-size: 70px;
+	padding:15px 0px;
+	margin-top: 30px;
+	margin-bottom:30px;
+}
+.content h1{
+	font-family: 'Domine', serif;
+	line-height:12.5px;
+	font-size:100px;
+	padding:70px 0px;
+}
+.content p{
+	font-size:30px;
+}
+.box{
+	float:left;
+	width:33%;
+	padding:25px;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+.box p{
+	color:white;
+	height: 200px;
+}
+.box img{
+	padding:20px;
+	height:150px;
+	width: 70%;
+	border: 10px;
+	align-items: center;
+
+
+}
+.box h2{
+	text-align:center;
+	color:white;
+
+}
+
+footer{
+	text-align: center;
+	float: right;
+}
+.container li a:hover{
+	color:green;
+
+}
+img:hover{
+	border:1.5px solid #82e8bc;
+	background-color:#82e8bc;
+}
+.text{
+	float:right;
+}
+
+
+
+
+
